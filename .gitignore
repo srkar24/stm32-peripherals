@@ -1,0 +1,21 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!.github
+!README.md
+# etc...
+
+# ...even if they are in subdirectories
+!*/
+
+# if the files to be tracked, they are in subdirectories
+!*001-blink/stm32-blink/Core/Src/main.c
+!*002-uart/stm32-uart/Core/Src/main.c
+!*003-EXTI/stm32-exti/Core/Src/main.c
+!*004-DMA/stm32-dma/Core/Src/main.c
+!*004-DMA2/stm32-dma-irq/Core/Src/main.c
+!*005-RTC/stm32-rtc/Core/Src/main.c
+!*006-WDG/stm32-wdg/Core/Src/main.c
+!*006-IWDG/stm32-iwdg/Core/Src/main.c
